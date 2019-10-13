@@ -54,7 +54,8 @@ body {
 }
 
 .todo-items {
-  margin: 0;
+  width: 95%;
+  margin: 0 auto;
   padding: 0;
   position: relative;
   cursor: pointer;
