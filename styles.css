@@ -7,9 +7,13 @@ body {
 .main-container {
   background: whitesmoke;
   width: 450px;
-  height: 700px;
+  height: auto;
   border-radius: 20px;
   margin: 0 auto;
+}
+
+.todo-list {
+  padding-bottom: 10px;
 }
 
 .enter-todo {
