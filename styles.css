@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 30px 0 0 0;
+  background: #d3d3d3;
+  font-family: "Caveat", cursive;
+}
+.main-container {
+  background: whitesmoke; /*#ccffff;*/
+  width: 450px;
+  height: 700px;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+
+.enter-todo {
+  text-align: center;
+  border: 15px solid #33ffcc;
+  border-radius: 5px;
+  width: 420px;
+  margin: 0 auto;
+  background-color: #b3ffec;
+  position: relative;
+}
+
+.enter-item::placeholder {
+  color: white;
+  font-family: "Caveat", cursive;
+}
+
+.enter-item {
+  padding: 7px 0;
+  width: 96%;
+  background-color: #b3ffec;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+  border: none;
+  color: white;
+  font-size: 25px;
+  font-family: "Caveat", cursive;
+}
+
+.search-icon {
+  font-size: 1em;
+  color: #33ffcc;
+  background: white;
+  border-radius: 50%;
+  padding: 17px;
+  z-index: 3;
+  position: absolute;
+  top: -3px;
+  right: -14px;
+  cursor: pointer;
+}
+
+.todo-items {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  cursor: pointer;
+}
+.todo-item {
+  list-style: none;
+  font-size: 25px;
+  padding: 20px 0;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+#unchecked-box {
+  color: #33ffcc;
+  cursor: pointer;
+}
+#remove-todo {
+  color: red;
+  cursor: pointer;
+}
+
+p {
+  margin: 0;
+  position: absolute;
+  top: 15px;
+}
