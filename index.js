@@ -48,4 +48,5 @@ listContainer.addEventListener("click", (e) => {
         tgt.previousElementSibling.style.textDecoration = "line-through";
         tgt.previousElementSibling.style.color = 'gray';
     }
+    inputText.focus();
 });
