@@ -14,7 +14,7 @@ body {
 
 .enter-todo {
   text-align: center;
-  border: 15px solid #33ffcc;
+  border: 15px solid #9933ff; /*#33ffcc;*/
   border-radius: 5px;
   width: 420px;
   margin: 0 auto;
@@ -29,8 +29,8 @@ body {
 
 .enter-item {
   padding: 7px 0;
-  width: 96%;
-  background-color: #b3ffec;
+  width: 100%;
+  background-color: #cc99ff; /*#b3ffec;*/
   -webkit-appearance: none;
   box-shadow: none !important;
   border: none;
@@ -41,7 +41,7 @@ body {
 
 .search-icon {
   font-size: 1em;
-  color: #33ffcc;
+  color: #9933ff; /*#33ffcc;*/
   background: white;
   border-radius: 50%;
   padding: 17px;
@@ -65,13 +65,13 @@ body {
   background-color: white;
   border-radius: 10px;
   margin-top: 20px;
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
   position: relative;
 }
 
 #unchecked-box {
-  color: #33ffcc;
+  color: #9933ff;
   cursor: pointer;
 }
 #remove-todo {
@@ -80,7 +80,5 @@ body {
 }
 
 p {
-  margin: 0;
-  position: absolute;
-  top: 15px;
+  margin: 0 20px;
 }
