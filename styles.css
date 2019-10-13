@@ -5,7 +5,7 @@ body {
   font-family: "Caveat", cursive;
 }
 .main-container {
-  background: whitesmoke; /*#ccffff;*/
+  background: whitesmoke;
   width: 450px;
   height: 700px;
   border-radius: 20px;
@@ -20,6 +20,7 @@ body {
   margin: 0 auto;
   background-color: #b3ffec;
   position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .enter-item::placeholder {
@@ -30,7 +31,7 @@ body {
 .enter-item {
   padding: 7px 0;
   width: 100%;
-  background-color: #cc99ff; /*#b3ffec;*/
+  background-color: #cc99ff;
   -webkit-appearance: none;
   box-shadow: none !important;
   border: none;
@@ -41,7 +42,7 @@ body {
 
 .search-icon {
   font-size: 1em;
-  color: #9933ff; /*#33ffcc;*/
+  color: #9933ff;
   background: white;
   border-radius: 50%;
   padding: 17px;
@@ -68,6 +69,7 @@ body {
   display: grid;
   grid-template-columns: 3fr 1fr 1fr;
   position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #unchecked-box {
